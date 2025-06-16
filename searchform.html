@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://fonts.googleapis.com/css2?family=Khmer&display=swap" rel="stylesheet">
+     <link rel="icon" href="../log_tela-removebg-preview.png" type="image/png" width="50px" height="50px">
+<style>
+.button {
+    display: flex;
+    padding-left: 25%;
+}
+.Cancel {
+    padding-left: 30px;
+}
+.search {
+  
+}
+
+</style>
+
+<script>
+  
+
+  
+</script>
+
+
+</head>
+<body>
+    <img src="./log_tela-removebg-preview.png" style="width: 100px; height: 100px; margin-left: 45%; margin-top: 80px;">
+    <di class="h1">
+        <h1 style=" font-family: Arial, Helvetica, sans-serif 30px; color: rgb(6, 65, 40); text-align: center; margin-top: 5px; margin-bottom: 2px; margin-left: 5%;">Staff Information</h1>
+    </di>    
+    <diV class="search">
+        <form action="/search" method="get" style="font-size: 25px; font-family: Arial, Helvetica, sans-serif; margin-left: 20%;">
+            <fieldset style="width: 450px; height: 270px; background-color: rgb(191, 226, 184); border-radius: 15px; box-shadow: 2px 5px 15px green;">
+                <legend style="width: 250px; height: 50px; font-size: 30px; border-radius: 10px;"></legend>
+                <label>
+                       <b>ID Number&nbsp;&nbsp;&nbsp;</b> 
+                </label>
+                    <input type="text" name="id number" id="id number" required style="height: 50px; width: 250px; border-radius: 5px; text-align: center; font-size: 28px;" autocomplete placeholder="Enter ID">
+                        <br>
+                        <br>
+                    <label><b>Date of birth</b></label>
+                    <input type="date" name="date of birth" id="date of birth" required style="height: 50px; width: 250px; border-radius: 5px; text-align: center; font-size: 30px;" autocomplete>
+                        <br>
+                        <br>
+                    <div class="button">
+                        <button style="width: 110px; height: 40px; font-size: 30px; background-color: rgb(157, 155, 158); border-radius: 10px;" type="submit">Search</button>
+                        <div class="Cancel">
+                        <button style="width: 110px; height: 40px; font-size: 30px; background-color: rgb(157, 155, 158); border-radius: 10px;" type="button" onclick="clearsearch">Cancel</button>
+                        </div>
+                    </div>
+            </fieldset>
+        </form>
+    </diV>
+</body>
+</html>
