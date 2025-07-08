@@ -1,0 +1,155 @@
+* {
+    margin: unset;
+    line-height: 1.5;
+}
+
+    /* Container for content */
+body  {
+        width: 95%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        }
+  /* Mobile-first media queries */
+@media screen and (min-width: 768px) {
+body {
+         width: 100%;
+         margin-left: 20px;
+         margin-right: 20px;
+        }
+        
+        /* Tablet-specific styles */
+        }
+
+@media screen and (min-width: 1024px) {
+body {
+        width: 100%;
+        }
+        
+        /* Desktop-specific styles */
+        }
+img {
+    position: relative;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 1500;
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    margin-left: 28%;
+}
+p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+span {
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+}
+.header-tittle {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.gride-content {
+    display: inline-flex;
+    position: relative;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.content-2 {
+    margin-left: 90px;
+}
+.content-3 {
+    margin-left: 320px;
+}
+.content-4 {
+    margin-left: 200px;
+}
+span {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+
+}
+td {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 5px;
+}
+.table1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.table-content {
+    width: 50%;
+}
+.table-content1 {
+    margin-left: 5px;
+    margin-top: 20px;
+    width: 50%;
+}
+.table-content2 {
+    width: 50%;
+}
+
+.end-pharagrap {
+    text-align: end;
+    width: 200px;
+}
+.hidde {
+    color: white;
+}
+.table2 {
+    text-align: start;
+    margin-top: 5px;
+    width: 100%;
+}
+.reduct-scall {
+    padding-right: 6px;
+    width: 170px;
+}
+.table3 {
+    margin-top: 5px;
+    width: 100%;
+}
+.account-details {
+    margin-top: 5px;
+    width: 100%;
+}
+.table4 {
+    margin-top: 5px;
+    width: 100%;
+}
+.table5 {
+    margin-top: 5px;
+    width: 100%;
+}
+.table6 {
+    margin-top: 1px;
+    width: 100%;
+}
+.table7 {
+    margin-top: 5px;
+    width: 100%;
+}
+.content-women {
+    margin-top: 5px;
+}
